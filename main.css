@@ -14,7 +14,7 @@ body {
     flex: 1 calc(100vh - 110px);
     display: flex;
     flex-direction: column;
-    align-items: left;
+    align-items: center;
     justify-content: space-around;
   }
   
@@ -22,5 +22,16 @@ body {
     flex: 0 30px;
   }
 
-  
+
+  menu {
+    display: inline;
+    width: auto;
+    padding: 0;
+    margin: 1;
+    font-size: medium;
+    line-height: normal;
+    color: #000000;
+    border: 1;
+    border-bottom: none;
+  }
   
